@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\TestProject1.csproj": {
+    "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\TestProject1.csproj",
+        "projectPath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\chiel\\.nuget\\packages\\",
-        "outputPath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\obj\\",
+        "outputPath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

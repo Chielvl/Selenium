@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2JjAeQpPFIsui0LFoXppMT4rnAc6kyKdu6M8SWxk6CGiK8ipDWDLug4Ywx29JLduwmwelRkuOcYsFmdCIWkwvg==",
+  "dgSpecHash": "q9oHXDrC6bnf49LLKZEyqi/F6NQk8/Mzoe3JWkgQ1e5A02DL1hJwm3TrQnjZC7vIPgHVP1WfExeZa+HwG1AQ4A==",
   "success": true,
-  "projectFilePath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Shared Folder\\Werk\\Testing\\Test1\\C# project\\TestProject1\\SeleniumTest\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chiel\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\chiel\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

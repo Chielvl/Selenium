@@ -14,25 +14,16 @@ namespace TestProject1
         [SetUp]
         public void Setup()
         {
-            driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\drivers\");
+            driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\SeleniumTest\drivers\");
             driver.Navigate().GoToUrl("http://the-internet.herokuapp.com/dropdown");
             driver.Manage().Timeouts().ImplicitWait.TotalSeconds.Equals(5);
         }
 
-        [Test]
         public IWebElement SelectContinent()
         {
             IWebElement selectElement = driver.FindElement(By.Id("dropdown"));
 
             return selectElement;
-        }
-
-        [Test]
-        public void SelectAllOptions()
-        {
-            SelectElement select = new SelectElement(SelectContinent());    
-            
-            TearDown();
         }
 
         [Test]
@@ -50,10 +41,10 @@ namespace TestProject1
             select.SelectByValue("2");
         }
 
-        [OneTimeTearDown]
+        [TearDown]
         public void TearDown()
         {
-           // driver.Quit();
+           driver.Quit();
         }
 
     }

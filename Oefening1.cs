@@ -16,7 +16,7 @@ namespace TestProject1
       [SetUp]
         public void Setup()
         {
-             driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\drivers\");
+             driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\SeleniumTest\drivers\");
 
              actions = new Actions(driver);
         }
@@ -66,7 +66,7 @@ namespace TestProject1
 
         }
 
-        [OneTimeTearDown]
+        [TearDown]
         public void TearDown()
         {
 
