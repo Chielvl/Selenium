@@ -20,7 +20,7 @@ namespace TestProject1
         public void Setup()
         {
             //Get driver
-            driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\drivers\");
+            driver = new ChromeDriver(@"C:\Shared Folder\Werk\Testing\Test1\C# project\TestProject1\SeleniumTest\drivers\");
         }
 
         [Test]
@@ -58,7 +58,6 @@ namespace TestProject1
             //in top frame, find frame with name left
             topFrame.SwitchTo().Frame("frame-left");
 
-            Console.WriteLine(currentFrame);
         }
 
         [Test]
@@ -92,10 +91,6 @@ namespace TestProject1
             
             //in top frame, find frame with name right
             topFrame.SwitchTo().Frame("frame-right");
-
-            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
-            var currentFrame = jsExecutor.ExecuteScript("return self.name");
-            Console.WriteLine(currentFrame);
         }
 
         [Test]
